@@ -1,1 +1,95 @@
 /* -------// Estilos propios del Website Blog \\------- */
+
+.body-style {
+  background-color: #ffc107 !important;
+  background-image: url('../img/bg-blog.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center 112px !important;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 1000px;
+}
+
+.logo-img-bar {
+  width: 100% !important;
+  background-color: #ffc107 !important;
+  max-width: 5.5em !important;
+  border-radius: 0 0 50% 50% !important;
+  border: 10px solid #ffc107 !important;
+  float: left !important;
+}
+
+.logo-img {
+  width: 100% !important;
+  background-color: #ffc107 !important;
+  max-width: 14em !important;
+  border-radius: 0 0 50% 50% !important;
+  border: 10px solid #ffc107 !important;
+  float: right !important;
+}
+
+.no-margin {
+  margin: 0px !important;
+}
+
+.sitename-pd {
+  padding-top: 1em !important;
+}
+
+.sitename-mg {
+  padding-bottom: 0.5em !important;
+}
+
+.icon-padding {
+  padding-right: 0.5em !important;
+}
+
+.btn {
+  text-transform: capitalize !important;
+}
+
+.bar-menu {
+  padding-right: 0.5em !important;
+}
+
+.btn-bar {
+  margin: 0.5em 0.5em 0.5em 0 !important;
+}
+
+
+/*** -/- ---- Estilo para los diferentes tamaños de pantalla ---- -\- ***/
+
+@media (max-width: 1024px) {
+  h3.sitename-mg {
+    font-size: 2.5em;
+    margin: 0.4em 0 0 0 !important;
+    line-height: 0.8em !important;
+  }
+}
+
+@media (max-width: 800px) {
+  h3.sitename-mg {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 600px) {
+  h5.sitename-pd {
+    font-size: 1.5em !important;
+    padding: 0 !important;
+  }
+  .icon-padding {
+    padding: 0 !important;
+  }
+  .logo-img-bar {
+    border: none !important;
+    padding: 0.5em 0 0 0.5em !important;
+  }
+  .bar-menu {
+    margin-bottom: 1em !important;
+  }
+  .sitename-pd {
+    margin: 0 0.5em 0 0.5em !important;
+    line-height: 1em !important;
+  }
+}
