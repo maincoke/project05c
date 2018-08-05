@@ -14,43 +14,58 @@
 </head>
 
 <body class="body-style">
-  <header>
+  <header class="row">
     <div class="row nav-wrapper no-margin">
       <div class="brand-logo hide-on-med-and-up show-on-small">
         <a href="#!">
           <img src="img/trendy-trip-logo.png" alt="Trendy Trip Logo" class="responsive-img logo-img-bar">
         </a>
       </div>
-      <ul class="right no-margin bar-menu">
+      <ul class="sidenav hide-on-med-and-up show-on-small" id="slide-menu">
+        <li><a href="#!" class="waves-effect"><i class="material-icons small">home</i>Inicio</a></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons small">pin_drop</i>Estuve ahí</a></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons small">beach_access</i>Viajes Actuales</a></li>
+        <li><a href="#!" class="waves-effect"><i class="material-icons small">card_travel</i>Tips de Viajes</a></li>
+        <li><div class="divider"></div></li>
+        <li><a href="#!" class="subheader">Redes Sociales</a></li>
+        <li><a href="#!" class="waves-effect"><i class="fab fa-facebook fa-2x"></i>Trendy Trip Blog</a></li>
+        <li><a href="#!" class="waves-effect"><i class="fab fa-twitter fa-2x"></i>@trendytrip #catchup</a></li>
+        <li><a href="#!" class="waves-effect"><i class="fab fa-instagram fa-2x"></i>@trendytripblog</a></li>
+        <li><a href="#!" class="waves-effect"><i class="fab fa-youtube fa-2x"></i>Trendytrip Channel</a></li>
+        <li><a href="#!" class="waves-effect"><i class="fab fa-meetup fa-2x"></i>Trendytrip Group</a></li>
+      </ul>
+      <a class="btn btn-floating orange darken-2 right hide-on-med-and-up show-on-small sidenav-trigger" data-target="slide-menu" href="#!">
+        <i class="material-icons">menu</i>
+      </a>
+      <div class="row no-margin hide-on-med-and-up show-on-small">
+        <div class="col s12 no-padding">
+          <h5 class="white-text no-margin left sitename-pd"><strong>Trendy Trip</strong>
+            <small>...Lo actual y nuevo en el turismo mundial!</small>
+          </h5>
+        </div>
+      </div>
+      <ul class="right no-margin bar-menu hide-on-small-only">
         <li class="valign-wrapper left hoverable btn-bar">
           <a href="#!" class="btn btn-flat white-text orange">
-            <i class="material-icons icon-padding left no-margin">home</i>
-            <div class="left hide-on-small-only"><strong>Inicio</strong></div>
+            <i class="material-icons icon-padding left no-margin">home</i><div class="left"><strong>Inicio</strong></div>
           </a>
         </li>
         <li class="valign-wrapper left hoverable btn-bar">
           <a href="#!" class="btn btn-flat white-text orange">
-            <i class="material-icons icon-padding left no-margin">pin_drop</i>
-            <div class="left hide-on-small-only"><strong>Estuve ahí</strong></div>
+            <i class="material-icons icon-padding left no-margin">pin_drop</i><div class="left"><strong>Estuve ahí</strong></div>
           </a>
         </li>
         <li class="valign-wrapper left hoverable btn-bar">
           <a href="#!" class="btn btn-flat white-text orange">
-            <i class="material-icons icon-padding left no-margin">beach_access</i>
-            <div class="left hide-on-small-only"><strong>Viajes Actuales</strong></div>
+            <i class="material-icons icon-padding left no-margin">beach_access</i><div class="left"><strong>Viajes Actuales</strong></div>
           </a>
         </li>
         <li class="valign-wrapper left hoverable btn-bar">
           <a href="#!" class="btn btn-flat white-text orange">
-            <i class="material-icons icon-padding left no-margin">card_travel</i>
-            <div class="left hide-on-small-only"><strong>Tips de Viaje</strong></div>
+            <i class="material-icons icon-padding left no-margin">card_travel</i><div class="left"><strong>Tips de Viaje</strong></div>
           </a>
         </li>
       </ul>
-      <h5 class="white-text no-margin left sitename-pd hide-on-med-and-up show-on-small"><strong>Trendy Trip</strong>
-        <small>...Lo actual y nuevo en el turismo mundial!</small>
-      </h5>
-
     </div>
     <div class="row no-margin hide-on-small-only">
       <div class="col m2 l2 offset-l1 no-padding">
@@ -66,8 +81,124 @@
         </a>
       </div>
     </div>
-
   </header>
+  <section class="row">
+    <div class="col m1 l1 hide-on-small-only">
+      <a href="#!" class="yellow-text"><i class="fab fa-facebook-square fa-4x rsociales"></i></a><br>
+      <a href="#!" class="yellow-text"><i class="fab fa-twitter-square fa-4x rsociales"></i></a><br>
+      <a href="#!" class="yellow-text"><i class="fab fa-instagram fa-4x rsociales"></i></a><br>
+      <a href="#!" class="yellow-text"><i class="fab fa-youtube-square fa-4x rsociales"></i></a><br>
+      <a href="#!" class="yellow-text"><i class="fab fa-meetup fa-4x rsociales"></i></a><br>
+    </div>
+    <div class="col s12 m4 l4">
+      <a href="#!">
+        <img src="img/04-hawai.jpg" alt="Club Hawai" class="responsive-img hoverable front-img">
+      </a>
+      <a href="#!">
+        <img src="img/01-sidney.jpg" alt="Casa de la Opera Sidney" class="responsive-img hoverable front-img">
+      </a>
+    </div>
+    <div class="col s12 m4 l4">
+      <a href="#!">
+        <img src="img/05-pisa.jpg" alt="Torre de Pisa -Italia" class="responsive-img hoverable front-img">
+      </a>
+    </div>
+    <div class="col s12 m3 l3">
+      <a href="#!">
+        <img src="img/02-bogota.jpg" alt="Plaza Bolivar de Bogota" class="responsive-img hoverable front-img">
+      </a>
+      <a href="#!">
+        <img src="img/08-atenas.jpg" alt="Mercado Pulgas de Atenas" class="responsive-img hoverable front-img">
+      </a>
+      <a href="#!">
+        <img src="img/03-madrid.jpg" alt="Plza de Cibeles en Madrid" class="responsive-img hoverable front-img">
+      </a>
+    </div>
+  </section>
+  <article class="row">
+    <div class="col s12 m9 l9">
+      <div class="row card-panel horizontal">
+        <div class="col s12">
+          <div class="card-title">
+            <h4 class="no-margin title-article"><strong>Torre Eiffel de París</strong></h4>
+          </div>
+          <div class="chip" id="date-article">
+            <span><small>29, Julio de 2018</small><i class="material-icons tiny">calendar_today</i></span>
+          </div>
+          <div class="chip left">
+            <span><small>Champ de Mars, Paris, Francia</small>
+            <i class="material-icons tiny">place</i></span>
+          </div>
+        </div>
+        <div class="col s12 m5 l4 col-img">
+          <div class="card-image no-margin">
+            <img src="img/06-paris.jpg" alt="Torre Eiffel de Paris" class="article-img">
+          </div>
+        </div>
+        <div class="col s12 m7 l8">
+          <div class="card-content no-margin">
+            <p class="justify-text text-card">
+              Visitar la Torre Eiffel es un imprescindible que hacer en París. Es el monumento más visitado de Francia con más de siete millones de visitantes anuales. Esta obra de arte, de 324 metros de altura es el principal símbolo de París. La Torre Eiffel fue
+              construida entre 1887 y 1889 por el famoso arquitecto francés Gustave Eiffel. Se construyó para la Exposición Universal de 1889 que se celebró en París.<br><br>Francia quería crear un monumento impresionante para maravillar
+              el mundo durante esa exposición. Los organizadores crearon un concurso para que se presentaran propuestas y la de Eiffel fue la ganadora de la beca.
+            </p>
+          </div>
+        </div>
+        <div class="col s12">
+          <div class="card-content no-margin">
+            <p class="justify-text text-card">
+              La gente se pensaba que no la terminaría a tiempo, pero su previsión salió bien. Aunque no fue aceptada por todos los parisinos, poco a poco fue ganando adeptos. De hecho, se construyó con la intención de ser derrocada una vez finalizase la exposición
+              de 1889, pero la gente se negó. Hoy en día aún sigue impresionando, ya que se ha convertido en uno de los monumentos más valorados del mundo. Desde finales de los ochenta, se ha ido adaptando a la gran afluencia turística que recibe.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row card-panel horizontal">
+        <div class="col s12">
+          <div class="card-title">
+            <h4 class="no-margin title-article"><strong>Taj Mahal en India</strong></h4>
+          </div>
+          <div class="chip" id="date-article">
+            <span><small>20, Julio de 2018</small><i class="material-icons tiny">calendar_today</i></span>
+          </div>
+          <div class="chip left">
+            <span><small>Agra, Uttar Pradesh, India</small>
+            <i class="material-icons tiny">place</i></span>
+          </div>
+        </div>
+        <div class="col s12 m7 l6">
+          <div class="card-content no-margin">
+            <p class="justify-text text-card">
+              Se sugiere que la visita al Taj Mahal se haga pensando no sólo en un edificio de mármol sino en un monumento dedicado al amor, y debemos apreciarlo como una conmemoración a la mujer. El poeta indio Rabindranath Tagore definió al Taj Mahal como “una lágrima
+              en la mejilla de la eternidad”.
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m5 l6 col-img">
+          <div class="card-image no-margin">
+            <img src="img/07-mumbai.jpg" alt="Taj Mahal de India" class="article-img">
+          </div>
+        </div>
+        <div class="col s12">
+          <div class="card-content no-margin">
+            <p class="justify-text text-card">
+              Hay tres puertas de acceso al Taj Mahal. La puerta principal es considerada la puerte oeste, y está bastante saturada los fines de semana y los días festivos.La puerta sur abre a las 08:00 horas mientras que las puertas oeste y este abren a las 06:30
+              horas. La mayoría de los autobuses turísticos paran en la puerta sur. Cinco noches al mes se permite la entrada al Taj Mahal de noche. Esto ocurre la noche de luna llena, las dos noches anteriores y las dos noches posteriores. Hay que tener
+              en cuenta que si una de esas noches cae en viernes el Taj Mahal permanecerá cerrado, como todos los viernes (el sabbath musulmán), así como durante el mes del Ramadán.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12 m3 l3">
+      <div class="card-panel">
+        <div class="card-image no-margin center">
+          <img src="img/blog-author.jpg" alt="Autor del Blog" class="img-author">
+        </div>
+      </div>
+    </div>
+  </article>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>

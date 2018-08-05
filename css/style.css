@@ -32,6 +32,10 @@
   margin: 0px !important;
 }
 
+.justify-text {
+  text-align: justify !important;
+}
+
 .sitename-pd {
   padding-top: 1em !important;
 }
@@ -56,6 +60,79 @@
   margin: 0.5em 0.5em 0.5em 0 !important;
 }
 
+.btn-floating {
+  top: 10px !important;
+  right: 20px !important;
+}
+
+.rsociales {
+  margin-bottom: 1.5rem !important;
+  -webkit-transition: all 100ms ease-in !important;
+  -webkit-transform: scale(1) !important;
+  -ms-transition: all 100ms ease-in !important;
+  -ms-transform: scale(1) !important;
+  -moz-transition: all 100ms ease-in !important;
+  -moz-transform: scale(1) !important;
+  transition: all 100ms ease-in !important;
+  transform: scale(1) !important;
+}
+
+.rsociales:hover {
+  color: #ef6c00 !important;
+  border-radius: 5px !important;
+  -webkit-transition: all 50ms ease-in !important;
+  -webkit-transform: scale(1.3) !important;
+  -ms-transition: all 50ms ease-in !important;
+  -ms-transform: scale(1.3) !important;
+  -moz-transition: all 50ms ease-in !important;
+  -moz-transform: scale(1.3) !important;
+  transition: all 50ms ease-in !important;
+  transform: scale(1.3) !important;
+}
+
+.front-img {
+  width: 100% !important;
+  margin-bottom: 1rem !important;
+  border: 2px solid #ffffffad !important;
+}
+
+.card-panel {
+  padding: 0 0.5rem !important;
+  margin: 0 0 1rem 0 !important;
+}
+
+.card-title {
+  margin: 1rem 0 0.5rem 0 !important;
+}
+
+#date-article {
+  float: right !important;
+}
+
+.text-card {
+  margin: 0.5rem 0 !important;
+  font-size: 1.6vw !important;
+}
+
+.article-img {
+  padding-top: 1rem !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.material-icons.tiny {
+  padding-left: 0.5rem !important;
+}
+
+.img-author {
+  width: 75% !important;
+  height: 75% !important;
+  margin: 2em 0 !important;
+  border-radius: 50% !important;
+  border: 2px solid gray;
+  max-width: 150px !important;
+}
+
 
 /*** -/- ---- Estilo para los diferentes tamaños de pantalla ---- -\- ***/
 
@@ -65,21 +142,41 @@
     margin: 0.4em 0 0 0 !important;
     line-height: 0.8em !important;
   }
+  .text-card {
+    font-size: 1.7vw !important;
+  }
 }
 
 @media (max-width: 800px) {
   h3.sitename-mg {
     font-size: 2em;
   }
+  .fa-4x {
+    font-size: 36px !important;
+  }
+  .title-article {
+    font-size: 3vw !important;
+  }
+  .article-img {
+    margin-top: 1.7vw !important;
+  }
+  .chip {
+    height: 24px !important;
+    line-height: 24px !important;
+  }
+  .text-card {
+    font-size: 1.8vw !important;
+  }
+  .col-img {
+    padding: 0 !important;
+  }
 }
 
 @media (max-width: 600px) {
   h5.sitename-pd {
-    font-size: 1.5em !important;
-    padding: 0 !important;
-  }
-  .icon-padding {
-    padding: 0 !important;
+    font-size: 1.7em !important;
+    padding: 0 0.5em 0 0.5em !important;
+    line-height: 1em !important;
   }
   .logo-img-bar {
     border: none !important;
@@ -88,8 +185,23 @@
   .bar-menu {
     margin-bottom: 1em !important;
   }
-  .sitename-pd {
-    margin: 0 0.5em 0 0.5em !important;
-    line-height: 1em !important;
+  .title-article {
+    font-size: 5vw !important;
+  }
+  .article-img {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+  .text-card {
+    font-size: 3vw !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .text-card {
+    font-size: 4vw !important;
+  }
+  #date-article {
+    float: left !important;
   }
 }
