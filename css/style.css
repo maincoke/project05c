@@ -143,7 +143,8 @@
 }
 
 
-/*** -/- ---- Estilo para los diferentes tamaños de pantalla ---- -\- ***/
+/*** -/- ---- Estilo para los diferentes tamaños de pantalla ---- -\- **
+ ** Cambio de estilo para pantallas con 1024px de ancho ** */
 
 @media (max-width: 1024px) {
   h3.sitename-mg {
@@ -155,6 +156,9 @@
     font-size: 1.7vw !important;
   }
 }
+
+
+/* ** Cambio de estilo para pantallas con 800px de ancho ** */
 
 @media (max-width: 800px) {
   h3.sitename-mg {
@@ -180,6 +184,9 @@
     padding: 0 !important;
   }
 }
+
+
+/* ** Cambio de estilo para pantallas con 600px de ancho ** */
 
 @media (max-width: 600px) {
   h5.sitename-pd {
@@ -209,6 +216,9 @@
     margin: 0 10% 5% 10% !important;
   }
 }
+
+
+/* ** Cambio de estilo para pantallas con 400px de ancho ** */
 
 @media (max-width: 400px) {
   .text-card {
